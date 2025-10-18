@@ -3,11 +3,11 @@ const message=document.getElementById("message");
 
 helloBtn.addEventListener("click",()=>{
     const hour = new Date().getHours();
-    let greeting = "こんにちは";
+    let greeting = "こんにちは!!  ";
     if (hour<12){
-        greeting = "おはよう";
+        greeting = "おはよう!!  ";
     }else if (hour>=18){
-        greeting ="こんばんわ";
+        greeting ="こんばんわ!!  ";
     }
     message.textContent=`${[greeting]}GitHub Pagesの公開に成功しました`;
 });
