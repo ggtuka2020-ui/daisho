@@ -2,7 +2,7 @@ const helloBtn=document.getElementById("helloBtn");
 const message=document.getElementById("message");
 
 helloBtn.addEventListener("click",()=>{
-    const hour = newDate().getHours();
+    const hour = new Date().getHours();
     let greeting = "こんにちは";
     if (hour<12){
         greeting = "おはよう";
